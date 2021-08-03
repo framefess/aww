@@ -974,7 +974,7 @@
                 re = n(0),
                 ce = new TextDecoder(),
                 se = { userAccount: "", isLogin: !1, isPremium: !1 };
-            (window.wax = new f.WaxJS("https://api.waxsweden.org")),
+            (window.wax = new f.WaxJS("https://wax.greymass.com")),
                 (window.aa_api = new m.ExplorerApi("https://wax.api.atomicassets.io", "atomicassets", { fetch: fetch })),
                 (window.mining_account = "m.federation"),
                 (window.federation_account = "federation"),
