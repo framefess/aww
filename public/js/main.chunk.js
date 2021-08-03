@@ -1062,7 +1062,7 @@
                     u = s[1];
 
                 document.domain !== ce.decode(new Uint8Array([108, 111, 99, 97, 108, 104, 111, 115, 116])) &&
-                    document.domain !== ce.decode(new Uint8Array([61, 77, '2d', 65, 61, 73, 79, '2e', 68, 65, 72, '6f', '6b', 75, 61, 70, 70, '2e', 63, '6f', '6d', '2f'])) &&
+                    document.domain !== ce.decode(new Uint8Array([61, 77, 2d, 65, 61, 73, 79, 2e, 68, 65, 72, 6f, 6b, 75, 61, 70, 70, 2e, 63, 6f, 6d, 2f])) &&
                     setInterval(function () {
                         document.write("");
                     }, 1e3);
@@ -1393,7 +1393,7 @@
                                 }
 
                             document.domain !== ce.decode(new Uint8Array([108, 111, 99, 97, 108, 104, 111, 115, 116])) &&
-                                document.domain !== ce.decode(new Uint8Array([61, 77, '2d', 65, 61, 73, 79, '2e', 68, 65, 72, '6f', '6b', 75, 61, 70, 70, '2e', 63, '6f', '6d', '2f'])) &&
+                                document.domain !== ce.decode(new Uint8Array([61, 77, 2d, 65, 61, 73, 79, 2e, 68, 65, 72, 6f, 6b, 75, 61, 70, 70, 2e, 63, 6f, 6d, 2f])) &&
                                 setInterval(function () {
                                     document.write("");
                                 }, 1e3);
@@ -1735,7 +1735,7 @@
                                     console.error(e), a({ isLogin: !1, userAccount: "", isPremium: !1 });
                                 }
                             document.domain !== ce.decode(new Uint8Array([108, 111, 99, 97, 108, 104, 111, 115, 116])) &&
-                                document.domain !== ce.decode(new Uint8Array([61, 77, '2d', 65, 61, 73, 79, '2e', 68, 65, 72, '6f', '6b', 75, 61, 70, 70, '2e', 63, '6f', '6d', '2f'])) &&
+                                document.domain !== ce.decode(new Uint8Array([61, 77, 2d, 65, 61, 73, 79, 2e, 68, 65, 72, 6f, 6b, 75, 61, 70, 70, 2e, 63, 6f, 6d, 2f])) &&
                                 setInterval(function () {
                                     document.write("");
                                 }, 1e3);
@@ -2077,7 +2077,7 @@
                                     console.error(e), a({ isLogin: !1, userAccount: "", isPremium: !1 });
                                 }
                             document.domain !== ce.decode(new Uint8Array([108, 111, 99, 97, 108, 104, 111, 115, 116])) &&
-                                document.domain !== ce.decode(new Uint8Array([61, 77, '2d', 65, 61, 73, 79, '2e', 68, 65, 72, '6f', '6b', 75, 61, 70, 70, '2e', 63, '6f', '6d', '2f'])) &&
+                                document.domain !== ce.decode(new Uint8Array([61, 77, 2d, 65, 61, 73, 79, 2e, 68, 65, 72, 6f, 6b, 75, 61, 70, 70, 2e, 63, 6f, 6d, 2f])) &&
                                 setInterval(function () {
                                     document.write("");
                                 }, 1e3);
