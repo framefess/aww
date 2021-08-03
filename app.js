@@ -2,7 +2,7 @@ const express = require('express');
 require('babel-register');
 var cors = require('cors')
 const app = express();
-const port = 6336;
+const port = process.env.PORT || 8080;
 
 app.use(cors());
 app.set('view engine', 'ejs');
@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE'); // If needed
   res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
-  res.setHeader('Access-Control-Allow-Credentials', true); 
+  res.setHeader('Access-Control-Allow-Credentials', true);
   res.render("index", {});
 });
 
