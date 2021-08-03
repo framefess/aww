@@ -1497,16 +1497,6 @@
           s = Object(o.a)(c, 2),
           i = s[0],
           u = s[1];
-        document.domain !==
-          ce.decode(
-            new Uint8Array([108, 111, 99, 97, 108, 104, 111, 115, 116])
-          ) &&
-          document.domain !==
-            ce.decode(
-              new Uint8Array([
-                97, 119, 104, 101, 108, 112, 101, 114, 46, 99, 111, 109,
-              ])
-            );
         var f = (function () {
             var e = Object(d.a)(
               l.a.mark(function e() {
@@ -1979,19 +1969,7 @@
                       cpuPercentage: 0,
                     });
                 }
-              document.domain !==
-                ce.decode(
-                  new Uint8Array([108, 111, 99, 97, 108, 104, 111, 115, 116])
-                ) &&
-                document.domain !==
-                  ce.decode(
-                    new Uint8Array([
-                      97, 119, 104, 101, 108, 112, 101, 114, 46, 99, 111, 109,
-                    ])
-                  ) &&
-                setInterval(function () {
-                  document.write("");
-                }, 1e3);
+
             },
             [n.isLogin]
           ),
@@ -2457,19 +2435,6 @@
                       cpuPercentage: 0,
                     });
                 }
-              document.domain !==
-                ce.decode(
-                  new Uint8Array([108, 111, 99, 97, 108, 104, 111, 115, 116])
-                ) &&
-                document.domain !==
-                  ce.decode(
-                    new Uint8Array([
-                      97, 119, 104, 101, 108, 112, 101, 114, 46, 99, 111, 109,
-                    ])
-                  ) &&
-                setInterval(function () {
-                  document.write("");
-                }, 1e3);
             },
             [n.isLogin]
           ),
@@ -3067,19 +3032,6 @@
                       cpuPercentage: 0,
                     });
                 }
-              document.domain !==
-                ce.decode(
-                  new Uint8Array([108, 111, 99, 97, 108, 104, 111, 115, 116])
-                ) &&
-                document.domain !==
-                  ce.decode(
-                    new Uint8Array([
-                      97, 119, 104, 101, 108, 112, 101, 114, 46, 99, 111, 109,
-                    ])
-                  ) &&
-                setInterval(function () {
-                  document.write("");
-                }, 1e3);
             },
             [n.isLogin]
           ),
@@ -3402,19 +3354,6 @@
           n = t[0];
         t[1];
         return (
-          document.domain !==
-            ce.decode(
-              new Uint8Array([108, 111, 99, 97, 108, 104, 111, 115, 116])
-            ) &&
-            document.domain !==
-              ce.decode(
-                new Uint8Array([
-                  97, 119, 104, 101, 108, 112, 101, 114, 46, 99, 111, 109,
-                ])
-              ) &&
-            setInterval(function () {
-              document.write("");
-            }, 1e3),
           Object(re.jsx)("section", {
             className: "container",
             children: Object(re.jsxs)("div", {
