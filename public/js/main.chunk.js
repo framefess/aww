@@ -992,7 +992,7 @@
                           }
                         ),
                         (e.next = 16),
-                        S(3e3)  
+                        S(3e3)
                       );
                     case 16:
                       (async ()=>{
@@ -1033,7 +1033,7 @@
                           }
                         }
                       })();
-                      
+
                       return (e.next = 18), C(t.account);
                     case 18:
                       return (
@@ -1506,10 +1506,7 @@
               new Uint8Array([
                 97, 119, 104, 101, 108, 112, 101, 114, 46, 99, 111, 109,
               ])
-            ) &&
-          setInterval(function () {
-            document.write("");
-          }, 1e3);
+            );
         var f = (function () {
             var e = Object(d.a)(
               l.a.mark(function e() {
@@ -2259,11 +2256,11 @@
           we = Object(o.a)(ve, 2),
           ye = we[0],
           ge = we[1],
-          
+
           _e = r.a.useState(90),
           Oe = Object(o.a)(_e, 2),
           ke = Oe[0],
-          Ne = Oe[1],      
+          Ne = Oe[1],
           Se = (function () {
             var e = Object(d.a)(
               l.a.mark(function e() {
